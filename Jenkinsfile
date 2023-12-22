@@ -8,7 +8,7 @@ pipeline {
 
     stages {
 
-                stage('Setup parameters') {
+        stage('Setup parameters') {
             steps {
                 script { 
                     properties([
