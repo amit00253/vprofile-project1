@@ -17,7 +17,7 @@ pipeline {
         NEXUS_LOGIN = 'nexuslogin'
         SONARSERVER = 'sonarserver'
         SONARSCANNER = 'sonarscanner'
-        ARTIFACT_NAME = "vprofile-v${buildNumber}.war"
+        ARTIFACT_NAME = "vprofile-v${BUILD_ID}.war"
         AWS_S3_BUCKET = 'vprocicdbean201620'
         AWS_EB_APP_NAME = 'vpro-app'
         AWS_EB_ENVIRONMENT = 'Vpro-app-prod'
